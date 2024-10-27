@@ -1,0 +1,59 @@
+
+h2{
+    font-size: 30px;
+    font-weight: 800;
+}
+.form-container1{
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    background-color: white;
+    height: 450px;
+    width: 400px;
+    border-radius: 10px;
+    border: 2px solid aqua;
+    object-fit: cover;
+    overflow: hidden;
+}
+.signUp2{
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(206, 44, 30);
+    background-image: url(https://imgs.search.brave.com/kNAqqvz5MNwR74LKhpGpkpqIbOKlLwtB0-dGmaUdVhU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9hYnN0cmFjdC1j/b2xvcmZ1bC1ncmFk/aWVudC1ibHVyLWJh/Y2tncm91bmRfNzYy/Nzg1LTI4NDExMC5q/cGc_c2l6ZT02MjYm/ZXh0PWpwZw);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.login-Para{
+    color: rgba(var(--f52,142,142,142),1);
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+   
+}
+input{
+   padding: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    outline: none;
+    box-sizing: border-box;
+    width: 250px;
+    border-radius: 6px;
+}
+input,placeholder{
+    text-align: center;
+}
+#submit-btn{
+    background-color: blue;
+    color: white;
+    font-weight: 300;
+    padding: 5px 10px;
+    width: 40%;
+    cursor: pointer;
+}
+.form2{
+    background-color: #fff;
+}
+.www{
+    margin-top: 90px;
+}
