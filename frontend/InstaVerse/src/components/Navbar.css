@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 } */
-.navbar{
+.navbar {
     text-align: center;
     align-items: center;
     display: flex;
@@ -10,30 +10,68 @@
     justify-content: space-around;
     box-shadow: 1px 5px #e0dcdc;
 }
-.nav-menu{
+
+/* .nav-mobile {
+    display: none;
+} */
+
+.nav-menu {
     display: flex;
     justify-content: space-between;
     gap: 40px;
     align-items: baseline;
 }
-.ppp{
+
+.ppp {
     font-size: large;
     text-decoration: none;
 }
-.primaryBtn{
+
+.primaryBtn {
     background-color: red;
     color: white;
     padding: 5px;
-    border-radius:9px;
-    border-color:white ;
+    border-radius: 9px;
+    border-color: white;
     width: 70px;
     height: 30px;
-  align-items: center;
+    align-items: center;
     font-weight: 700;
     cursor: pointer;
     transition: all 0.25 ease;
 }
-.primaryBtn:hover{
+
+.primaryBtn:hover {
     transform: translateY(-5px);
-    box-shadow:0 10px 20px -10px rgba(219, 24, 44, 0.6);
+    box-shadow: 0 10px 20px -10px rgba(219, 24, 44, 0.6);
+}
+
+@media screen and (max-width:800px) {
+    #insta-logo {
+        display: none;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .nav-mobile {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbar {
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        background-color: #fff;
+        box-shadow: 0px -2px 5px #fff;
+    }
+
+    .navbar ul {
+      margin: 0;
+      padding: 10px 0px;  
+    }
 }
